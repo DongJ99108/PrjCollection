@@ -2,6 +2,7 @@ package collection1;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class TestArrayList {
 
@@ -16,7 +17,8 @@ public class TestArrayList {
 		}
 		System.out.println();
 		//------------------------------
-		ArrayList<Integer> numList = new ArrayList<Integer>();
+		// ArrayList<Integer> numList = new ArrayList<Integer>();
+		List<Integer> numList = new ArrayList<Integer>();
 		numList.add( 10 );
 		numList.add( 20 );
 		numList.add( 30 );
