@@ -6,7 +6,7 @@ import java.util.Collections;
 public class TestArrayList {
 
 	public static void main(String[] args) {
-		int [] arr = new int[3]; // 초기값이 없으니 int[] 안에 3 집어넣기
+		int [] arr = new int[3]; // 초기값이 없으니 int[] 안에 3 집어넣기, 힙메모리에 new
 		arr[0] =10;
 		arr[1] =20;
 		arr[2] =30;

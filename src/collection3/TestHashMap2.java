@@ -46,8 +46,7 @@ public class TestHashMap2 {
 		}
 		
 		
-		// 모두 출력 3.
-		// MapEntry
+		
 		
 		
 		

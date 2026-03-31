@@ -15,7 +15,7 @@ public class TestHashSet {
 		System.out.println(set.size()); // 4
 		System.out.println(set);
 		
-		// 일반적인 for 문으로는 하나하나씩 집어올 수 없다. 대신 전용 함수인 iterator로 대체할 수 있다.
+		// 일반적인 for 문으로는 하나하나씩 집어올 수 없다. 대신 전용 함수인 iterator 로 대체할 수 있다.
 		for (Iterator iterator = set.iterator(); iterator.hasNext();) {
 			String name = (String) iterator.next();
 			System.out.print(name + " ");
